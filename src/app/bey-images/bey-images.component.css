@@ -10,29 +10,24 @@
   position: relative;
 }
 
-.bey-image-overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: #000;
-  opacity: 0;
-  transition: opacity 500ms ease;
-}
-
-.bey-image-overlay:hover {
-  opacity: .2;
+.bey-image-overlay-inner:hover {
+  opacity: 1;
   transition: opacity 500ms ease;
 }
 
 .bey-image-overlay-inner {
-  display: table;
-  border: 2px solid teal;
   width: 100%;
   height: 100%;
-  position: absolute;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 500ms ease;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .bey-image-overlay-inner-cell {
-  display: table-cell;
+
 }
