@@ -28,3 +28,12 @@
   margin: 6px auto;
   width: 31px;
 }
+
+.herName {
+  display: block;
+  margin: 0 auto;
+  max-width: 105px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  width: 100%;
+}
