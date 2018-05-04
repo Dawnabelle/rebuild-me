@@ -1,0 +1,25 @@
+.container-bey-images {
+  margin-top: 74px;
+}
+
+.container-bey-images img {
+  width: 100%;
+}
+
+.bey-image-item {
+  position: relative;
+}
+
+.bey-image-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+
+.bey-image-overlay:hover {
+  opacity: .2;
+  transition: opacity 500ms ease;
+}
