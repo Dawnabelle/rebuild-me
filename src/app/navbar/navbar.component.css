@@ -16,7 +16,9 @@
     display: block;
     height: 74px;
     outline: none;
-    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 87px;
     z-index: 1001;
 }
@@ -29,11 +31,17 @@
   width: 31px;
 }
 
-.herName {
+.her-name {
   display: block;
   margin: 0 auto;
   max-width: 105px;
   padding-top: 26px;
   padding-bottom: 26px;
   width: 100%;
+}
+
+.top-right-container {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
