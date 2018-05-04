@@ -45,3 +45,37 @@
   top: 0px;
   right: 0px;
 }
+
+.boxset-container {
+    position: relative;
+    top: initial;
+    left: initial;
+    right: 12px;
+}
+
+.boxset-container a {
+  display: table;
+  height: 100%;
+  text-decoration: none;
+}
+
+.boxset-container a div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.boxset-container div h4 {
+  font-size: 14px;
+  padding: 0;
+  color: #000000;
+  text-align: right;
+}
+
+.boxset-container div img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
