@@ -5,6 +5,7 @@ navbar
   ** visually menu
   ** beyonce
   ** ticket links
+Visually complete! 12:30pm 5/4/18
 
 Images
 Beyonce Images
@@ -13,7 +14,7 @@ fullwidth
 
 Stretch Goal
  ** bottom right arrow to return user to top of page
- ** menu beyond 
+ ** menu beyond
 
 
 Brainstorm Angular Template for Header
