@@ -51,6 +51,7 @@
     top: initial;
     left: initial;
     right: 12px;
+    height: 74px;
 }
 
 .boxset-container a {
@@ -69,6 +70,7 @@
   padding: 0;
   color: #000000;
   text-align: right;
+  margin: 0;
 }
 
 .boxset-container div img {
@@ -78,4 +80,8 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+}
+
+.boxset-container a img {
+    margin-left: 10px;
 }
