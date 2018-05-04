@@ -10,13 +10,22 @@ _JavaScript - Week 3 &amp; 4: Angular, Rebuild of Beyonce's Website using Angula
 
 ## Description
 
-_An imitation app of Beyonce.com built with Angular and flattery._
-<div style="text-align:center"><img src="https://imgix.bustle.com/rehost/2016/9/13/9600aa5b-992d-4682-940c-8affc989d9c8.png?w=970&h=582&fit=crop&crop=faces&auto=format&q=70" alt="Sunny Days Whitewater Planning" width="700"></div>
+_This app is an imitation [BEYONCE](https://beyonce.com) site built with Angular and flattery_
+<div style="text-align:center"><img src="https://imgix.bustle.com/rehost/2016/9/13/9600aa5b-992d-4682-940c-8affc989d9c8.png?w=970&h=582&fit=crop&crop=faces&auto=format&q=70" alt="Beyone 711 video still, with her girls" width="500"></div>
 
 <br>
 
 ## Setup/Installation Requirements
-<div style="text-align:center"><img src="https://imgix.bustle.com/lovelace/uploads/249/78d22db0-5614-0132-4214-0ebc4eccb42f.png?w=614&fit=max&auto=format&q=70" alt="Sunny Days Whitewater Planning" width="700"></div>
+
+* _Clone this repository_
+* _Run "npm install" in CLI_
+* _Run "npm run build" in CLI_
+* _In a new tab, navigate to [this page](https://youtu.be/OSAOsm1u-OE) and press play_
+* _Return to previous task_
+* _Run npm install_
+* _Run npm start_
+
+<div style="text-align:center"><img src="https://imgix.bustle.com/lovelace/uploads/249/78d22db0-5614-0132-4214-0ebc4eccb42f.png?w=614&fit=max&auto=format&q=70" alt="Beyonce 711 video still, namaste" width="500"></div>
 
 ## Known Bugs
 
