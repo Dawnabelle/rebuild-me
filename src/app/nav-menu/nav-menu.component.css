@@ -1,0 +1,27 @@
+.container-nav-menu {
+  background-color: rgba(0,0,0,.9);
+  color: white;
+  position: fixed;
+  height: 100%;
+  width: 80%;
+  z-index: 9999;
+}
+
+.container-nav-menu::before {
+  content: "click-me";
+  position: absolute;
+  display: block;
+  color: white;
+  background-color: black;
+  top: 0;
+  right: -50px;
+  width: 50px;
+}
+
+.nav-menu-content {
+
+}
+
+.container-nav-menu:focus {
+  width: 100%;
+}
