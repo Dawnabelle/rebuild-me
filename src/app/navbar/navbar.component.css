@@ -1,0 +1,30 @@
+.navbar {
+  border: 1px green solid;
+  background: #ffffff;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0px 4px 10px 1px rgba(220, 220, 220, 0.3);
+}
+
+.hamburger {
+    background: #000;
+    border: none;
+    cursor: pointer;
+    display: block;
+    height: 74px;
+    outline: none;
+    float: left;
+    width: 87px;
+    z-index: 1001;
+}
+
+.hamburger span {
+  background: #ffffff;
+  display: block;
+  height: 4px;
+  margin: 6px auto;
+  width: 31px;
+}
