@@ -22,3 +22,21 @@
 .container-nav-menu:focus {
   width: 100%;
 }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font: inherit;
+  vertical-align: baseline;
+  border: 0;
+}
+
+a.has-children  {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
