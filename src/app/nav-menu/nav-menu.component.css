@@ -5,7 +5,7 @@ position: fixed;
 height: 100%;
 width: 80%;
 z-index: 9999;
-/* left: -80%; */
+left: -80%;
 transition: all 500ms ease;
 outline: none;
 }
