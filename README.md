@@ -19,10 +19,20 @@ _This app is an imitation [BEYONCE](https://beyonce.com) site built with Angular
 _Check out info.md for additional planning information_
 
 A user can scroll through seemingly endless (work in progress) Beyonce Images
-* Input: Scroll | Output: new image, new image, new Images
+* Input: Scroll | Output: *new image, new image, new images*
 
 A user can click on an arrow in the bottom right of the screen and return to the top
 * Input: Click | Output: *return to top*
+
+A menu will slide out when a tab is clicked
+* Input: Click | Output: *menu options*
+
+WIP:
+* Link ticket page on click
+* Ability to add new tour dates
+* Ability to edit/sell out dates
+* Main page images to load on scroll
+* Additional visual updates
 
 ## Setup/Installation Requirements
 
