@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BeyImagesComponent } from './bey-images/bey-images.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { TicketLinkTabComponent } from './ticket-link-tab/ticket-link-tab.component';
+import { TicketsComponent } from './tickets/tickets.component';
+
 
 
 @NgModule({
@@ -16,7 +17,7 @@ import { TicketLinkTabComponent } from './ticket-link-tab/ticket-link-tab.compon
     NavbarComponent,
     BeyImagesComponent,
     NavMenuComponent,
-    TicketLinkTabComponent
+    TicketsComponent
   ],
   imports: [
     BrowserModule,
