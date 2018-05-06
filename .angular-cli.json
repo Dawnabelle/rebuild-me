@@ -56,5 +56,8 @@
   "defaults": {
     "styleExt": "css",
     "component": {}
-  }
+  },
+  "scripts": [
+    "../node_modules/jquery/dist/jquery.min.js"
+  ]
 }
