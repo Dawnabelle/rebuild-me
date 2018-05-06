@@ -24,9 +24,6 @@ pointer-events: none;
 left: 0;
 }
 
-
-
-
 .container-nav-menu .hamburger {
 background-color: rgba(0,0,0,.9);
 border: none;
@@ -49,7 +46,7 @@ margin: 6px auto;
 width: 31px;
 }
 
-ul {
+.container-nav-menu ul {
   padding: 0;
   margin: 0;
   font: inherit;
@@ -59,16 +56,11 @@ ul {
 
 }
 
-li {
+.container-nav-menu li {
   /* float: left; */
-
-
 }
 
-
-
-
-a.has-children  {
+.container-nav-menu a.has-children  {
   display: block;
   color: #fff;
   text-decoration: none !important;
@@ -78,7 +70,7 @@ a.has-children  {
   padding: 5px 0 5px 0;
 }
 
-a.has-children:visited {
+.container-nav-menu a.has-children:visited {
   color: white;
   text-decoration: none;
 }
