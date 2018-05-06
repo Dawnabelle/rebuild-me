@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { routing } from './app.routing';
 
 
 import { AppComponent } from './app.component';
@@ -18,7 +19,8 @@ import { TicketLinkTabComponent } from './ticket-link-tab/ticket-link-tab.compon
     TicketLinkTabComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
