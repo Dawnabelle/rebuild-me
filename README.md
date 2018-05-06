@@ -38,7 +38,7 @@ WIP:
 
 * _Install Angular CLI globally_
 * _Clone this repository_
-* _In a new tab, navigate to [this page](https://youtu.be/OSAOsm1u-OE) and press play_
+* _In a new tab, navigate to [this page](https://youtu.be/OSAOsm1u-OE) _
 * _Return to previous task_
 * _Run "npm install" in CLI_
 * _Run "ng build" in CLI_
