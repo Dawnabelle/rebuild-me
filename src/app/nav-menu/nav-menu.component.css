@@ -77,3 +77,13 @@
   color: white;
   text-decoration: none;
 }
+
+a.search-input h3 {
+  color: white !important;
+  text-decoration: none;
+  font-size: 80%;
+}
+
+a.search-input h3: visited {
+  text-decoration: none;
+}

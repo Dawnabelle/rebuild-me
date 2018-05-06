@@ -18,19 +18,28 @@ _This app is an imitation [BEYONCE](https://beyonce.com) site built with Angular
 ## Specs
 _Check out info.md for additional planning information_
 
-A user can scroll through seemingly endless (work in progress) Beyonce Images
+Ability to scroll through seemingly endless (work in progress) Beyonce images
 * Input: Scroll | Output: *new image, new image, new images*
 
-A user can click on an arrow in the bottom right of the screen and return to the top
+An arrow at the bottom right of the screen returns to the top of main page
 * Input: Click | Output: *return to top*
 
-A menu will slide out when a tab is clicked
+Menu will slide out when tab is clicked
 * Input: Click | Output: *menu options*
 
-WIP:
-* Link ticket page on click
+Menu will slide in when tab is clicked
+* Input: Click | Output: *menu options slide out of view*
+
+Ticket page will appear when "Buy Tickets" is clicked
+* Input: Click | Output: *ticket page*
+
+Main page will load when "BEYONCE" is clicked in header
+* Input: Click | Output: *main page*
+
+WiP:
+* Tour dates on ticket page
 * Ability to add new tour dates
-* Ability to edit/sell out dates
+* Ability to edit/sell out tour dates
 * Main page images to load on scroll
 * Additional visual updates
 
