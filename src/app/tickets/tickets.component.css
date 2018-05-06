@@ -5,7 +5,7 @@
     vertical-align: baseline;
     border: 0;
     list-style: none;
-    font-size: 100%;
+    font-size: 75%;
     display: inline;
 
 }
@@ -21,5 +21,23 @@
 
 .tour-header a:visited {
   color: white;
+  text-decoration: none !important;
+}
+
+.current-tour-view ul {
+  list-style: none !important;
+  text-decoration: line-through;
+  font-size: 75%;
+}
+
+.current-tour-view ul::after {
   text-decoration: none;
+}
+
+.current-tour-view1 {
+  color: black !important;
+}
+
+.tour-view img {
+  width: 100%;
 }
