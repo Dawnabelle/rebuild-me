@@ -1,4 +1,6 @@
 <div class="event-listing event-listing-detail">
-Date: {{eventToDisplay.date}} | Location: {{eventToDisplay.location}} | Venue: {{eventToDisplay.venue}}
-<button>Get Tickets</button>
+Date: {{(eventToDisplay | async)?.date}} |
+Location: {{(eventToDisplay | async)?.location}} |
+Venue: {{(eventToDisplay | async)?.venue}}
+<img class="event-detail-image" src="https://www.beyonce.com/uploads/2018/04/cache/9389YP5WLdBh_1280x1280_KaMXZQjO.jpg" alt="happy beyonce" width="300">
 </div>

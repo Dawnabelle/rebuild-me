@@ -21,7 +21,7 @@ export class EventsComponent implements OnInit {
     private eventService: EventService
   ) { }
 
-  gotToDetailPage(clickedEvent){
+  goToDetailPage(clickedEvent){
     this.router.navigate(['events', clickedEvent.$key]);
   }
 
