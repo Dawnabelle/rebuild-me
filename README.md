@@ -36,9 +36,13 @@ Ticket page will appear when "Buy Tickets" is clicked
 Main page will load when "BEYONCE" is clicked in header
 * Input: Click | Output: *main page*
 
+Tour dates on event page will load details on new webpage
+* Input: Click | Output: *event details page*
+
+Admin page available to add event dates (/admin) that will display on event page
+* Input: June 30, 2018| Somewherein, Scotland | Hogworts | Output: June 30, 2018| Somewherein, Scotland | Hogworts
+
 WiP:
-* Tour dates on ticket page
-* Ability to add new tour dates
 * Ability to edit/sell out tour dates
 * Menu pop out visual edits  
 * Additional visual updates
