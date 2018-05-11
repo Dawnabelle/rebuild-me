@@ -15,6 +15,7 @@ import { EventService } from '../event.service';
 export class EventsComponent implements OnInit {
 
   events: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
 
   constructor(
     private router: Router,

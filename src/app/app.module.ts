@@ -4,6 +4,7 @@ import { routing } from './app.routing';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
@@ -13,6 +14,7 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { EventsComponent } from './events/events.component';
 import { EventDetailComponent } from './event-detail/event-detail.component';
 import { AdminComponent } from './admin/admin.component';
+import { EditEventComponent } from './edit-event/edit-event.component';
 
 export const firebaseConfig = {
 apiKey: masterFirebaseConfig.apiKey,
@@ -29,13 +31,15 @@ storageBucket: masterFirebaseConfig.storageBucket
     NavMenuComponent,
     EventsComponent,
     EventDetailComponent,
-    AdminComponent
+    AdminComponent,
+    EditEventComponent
   ],
   imports: [
     BrowserModule,
     routing,
     AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

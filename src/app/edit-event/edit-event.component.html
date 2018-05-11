@@ -1,0 +1,14 @@
+<h4>Edit Event</h4>
+
+<label>New Event Date:</label>
+<input [(ngModel)]="selectedEvent.date">
+<br>
+
+<label>New Event Location:</label>
+<input [(ngModel)]="selectedEvent.location">
+<br>
+
+<label>New Event Venue:</label>
+<input [(ngModel)]="selectedEvent.venue">
+
+<button (click)="beginUpdatingEvent(selectEvent)">Update</button>

@@ -14,20 +14,17 @@ export class EventService {
     this.events = database.list('events');
   }
 
-  getEventById(eventId: number){
-    // for(let i = 0; i<= EVENTS.length - 1; i++){
-    //   if (EVENTS[i].id === eventId) {
-    //     return EVENTS[i];
-    //   }
-    // }
+  getEventById(eventId: string){
+    return this.database.object('events/' + eventId);
   }
 
-  getEvents(){
-    return this.events;
+  updateEvent(localUpdatedEvent) {
+    let eventEntryInFirebase = this.getEventById(localUpdatedEvent.$key);
+    eventEntryInFirebase.update({
+      date: localUpdatedEvent.date,
+      location: localUpdatedEvent.location,
+      venue: localUpdatedEvent.venue,
+      tickets: localUpdatedEvent.tickets
+    })
   }
-
-  addEvent(newEvent: Event) {
-    this.events.push(newEvent);
-  }
-
 }
