@@ -1,42 +1,28 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { Event } from '../event.model';
+import { EventService } from '../event.service';
+
 @Component({
   selector: 'app-events',
   templateUrl: './events.component.html',
-  styleUrls: ['./events.component.css']
+  styleUrls: ['./events.component.css'],
+  providers: [EventService]
 })
-export class EventsComponent {
 
-  constructor(private router: Router) { }
+export class EventsComponent implements OnInit {
 
-  events: Event [] =   [
-    new Event(
-      "JUNE 10, 2018",
-      "CARDIFF, UK",
-      "PRINCIPALITY STADIUM",
-      true,
-      0
-    ),
-    new Event(
-      "JUNE 9, 2018",
-      "GLASGOW, UK",
-      "HAMPDEN PARK",
-      true,
-      1
-    ),
-    new Event(
-      "JUNE 13, 2018",
-      "MANCHESTER, UK",
-      "ETIHAD STADIUM",
-      true,
-      2
-    )
-  ];
+  events: Event[];
+
+  constructor(private router: Router, private eventService: EventService) { }
 
   gotToDetailPage(clickedEvent: Event){
     this.router.navigate(['events', clickedEvent.id]);
+  }
+
+  ngOnInit(){
+    this.events = this.eventService.getEvents();
   }
 
 }
