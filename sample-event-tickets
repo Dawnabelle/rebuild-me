@@ -1,0 +1,45 @@
+{ "events": [{
+    "date": "JUNE 10, 2018",
+    "location": "CARDIFF, UK",
+    "venue": "PRINCIPALITY STADIUM",
+    "tickets": "true",
+    "id": "0"
+    }, {
+    "date": "JUNE 9, 2018",
+    "location": "GLASGOW, UK",
+    "venue": "HAMPDEN PARK",
+    "tickets": "true",
+    "id": "1",
+    }, {
+    "date": "JUNE 13, 2018",
+    "location": "MANCHESTER, UK",
+    "venue": "ETIHAD STADIUM",
+    "tickets": "true",
+    "id": "2",
+    }, {
+    "date": "JUNE 15, 2018",
+    "location": "LONDON, UK",
+    "venue": "LONDON STADIUM",
+    "tickets": "false",
+    "id": "3",
+    }, {
+    "date": "JUNE 15, 2018",
+    "location": "LONDON, UK",
+    "venue": "LONDON STADIUM",
+    "tickets": "true",
+    "id": "4",
+    }, {
+    "date": "JUNE 19, 2018",
+    "location": "AMSTERDAM, NL",
+    "venue": "AMSTERDAM ARENA",
+    "tickets": "false",
+    "id": "5",
+    }, {
+    "date": "JUNE 23, 2018",
+    "location": "COPENHAGEN, DK",
+    "venue": "PARKEN STADIUM",
+    "tickets": "true",
+    "id": "6",
+    },
+  ]
+}
