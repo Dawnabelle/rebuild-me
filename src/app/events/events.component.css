@@ -41,3 +41,12 @@
 .tour-view img {
   width: 100%;
 }
+
+.event-listing {
+padding: 10px;
+border: 1px solid black;
+}
+
+.event-listing + .event-listing {
+margin-top: 5px;
+}

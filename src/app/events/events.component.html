@@ -20,8 +20,8 @@
   <div class="tour-view">
       <img src="https://www.beyonce.com/uploads/2018/03/cache/jbKJKZTc1vBb_1280x430_74tHK9Wi.jpg" alt="OTR II">
   </div>
-  <div class="event-listing">
-    <div *ngFor="let event of events">
+  <div class="event-listing-container">
+    <div *ngFor="let event of events" (click)="gotToDetailPage(event)" class="event-listing">
       <div>{{event.date}} | {{event.location}} | {{event.venue}}</div>
 
     </div>
