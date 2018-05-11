@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BeyImagesComponent } from './bey-images/bey-images.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { TicketsComponent } from './tickets/tickets.component';
+import { EventsComponent } from './events/events.component';
 
 
 
@@ -17,7 +17,7 @@ import { TicketsComponent } from './tickets/tickets.component';
     NavbarComponent,
     BeyImagesComponent,
     NavMenuComponent,
-    TicketsComponent
+    EventsComponent
   ],
   imports: [
     BrowserModule,

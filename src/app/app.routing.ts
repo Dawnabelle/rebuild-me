@@ -2,7 +2,7 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BeyImagesComponent } from './bey-images/bey-images.component';
-import { TicketsComponent } from './tickets/tickets.component';
+import { EventsComponent } from './events/events.component';
 
 const appRoutes: Routes = [
   {
@@ -10,8 +10,8 @@ const appRoutes: Routes = [
     component: BeyImagesComponent
   },
   {
-    path: 'tickets',
-    component: TicketsComponent
+    path: 'events',
+    component: EventsComponent
   }
 ];
 
