@@ -20,4 +20,10 @@ export class EditEventComponent implements OnInit {
     this.eventService.updateEvent(eventToUpdate);
   }
 
+  beginDeletingEvent(eventToDelete) {
+    if(confirm("Are you sure you'd like to delete this item?")) {
+      this.eventService.deleteEvent(eventToDelete);
+    }
+  }
+
 }

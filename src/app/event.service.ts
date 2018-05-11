@@ -35,4 +35,9 @@ export class EventService {
   getEvents() {
     return this.events;
   }
+
+  deleteEvent(localEventToDelete) {
+    let eventEntryInFirebase = this.getEventById(localEventToDelete.$key);
+    eventEntryInFirebase.remove();
+  }
 }
