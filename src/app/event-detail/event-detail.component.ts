@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
+import { Location } from '@angular/common';
+
 import { Event } from '../event.model';
 
 @Component({
@@ -7,10 +10,14 @@ import { Event } from '../event.model';
   styleUrls: ['./event-detail.component.css']
 })
 export class EventDetailComponent implements OnInit {
+  eventId: number = null;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute, private location: Location) { }
 
   ngOnInit() {
+    this.route.params.forEach((urlParameters) => {
+      this.eventId = parseInt(urlParameters['id']);
+    });
   }
 
 }
