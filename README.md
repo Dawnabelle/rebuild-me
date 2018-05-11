@@ -66,7 +66,7 @@ _If you'd like to chat, please contact_ @dawnrparty _on_ ![alt text][1.1]
 
 ## Technologies Used
 
-_HTML, CSS, JavaScript, jQuery, Bootstrap, and Angular_
+_HTML, CSS, JavaScript, jQuery, Bootstrap, Angular, and flattery_
 
 ### License
 
