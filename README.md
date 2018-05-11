@@ -49,6 +49,12 @@ WiP:
 * _Clone this repository_
 * _In a new tab, navigate to [this page](https://youtu.be/OSAOsm1u-OE)_
 * _Return to previous task_
+* _Run "npm install angularfire2@4.0.0-rc.0 firebase@^3.6.6 --save" in CLI_
+* _Add `"types": [ "firebase" ]` to tsconfig.json_
+* _Make a free [Firebase](https://firebase.google.com/) account and create a database for a webpage_
+* _Acquire API keys_
+* _Create "api-keys.ts" in src/app/api-keys.ts and save API information_
+* _Add "api-keys.ts" to .gitignore file_
 * _Run "npm install" in CLI_
 * _Run "ng build" in CLI_
 * _Run "ng serve --open" in CLI_
