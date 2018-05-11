@@ -40,7 +40,7 @@ WiP:
 * Tour dates on ticket page
 * Ability to add new tour dates
 * Ability to edit/sell out tour dates
-* Main page images to load on scroll
+* Menu pop out visual edits  
 * Additional visual updates
 
 ## Setup/Installation Requirements

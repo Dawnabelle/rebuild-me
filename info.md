@@ -36,3 +36,38 @@ Navbar
   ** placement options
 
   Research favicon for Angular
+
+## Goal for day 2
+
+main page
+  ** more Beyonce photos (unnecessary/stretch)
+
+slide out menu
+  ** Add Beyonce and magnify glass image
+    ** Stretch
+      ** Make menu responsive
+        ** row changes to column
+
+tickets page
+  ** remove page up arrow - maybe, I kinda like it
+  ** make named items more descriptive
+    ** create ticket model
+      ** tickets(black)/sold out(dark grey) button
+      ** arrowing over ticket button strikes through text
+      ** tickets need border bottom
+        ** date
+        ** city/state or country
+        ** location/stadium etc
+    ** create edit functionality
+    ** create add functionality
+    ** create delete functionality
+
+add/connect firebase database
+
+deploy
+
+visual updates for consistency
+    ** spacing in text on tour div
+
+Stretch goals
+  ** change additional page linking to routing format
