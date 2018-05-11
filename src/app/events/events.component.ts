@@ -15,7 +15,10 @@ export class EventsComponent implements OnInit {
 
   events: Event[];
 
-  constructor(private router: Router, private eventService: EventService) { }
+  constructor(
+    private router: Router,
+    private eventService: EventService
+  ) { }
 
   gotToDetailPage(clickedEvent: Event){
     this.router.navigate(['events', clickedEvent.id]);

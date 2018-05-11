@@ -7,6 +7,14 @@ export class EventService {
 
   constructor() { }
 
+  getEventById(eventId: number){
+    for(let i = 0; i<= EVENTS.length - 1; i++){
+      if (EVENTS[i].id === eventId) {
+        return EVENTS[i];
+      }
+    }
+  }
+
   getEvents(){
     return EVENTS;
   }
