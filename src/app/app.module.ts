@@ -14,9 +14,10 @@ import { EventsComponent } from './events/events.component';
 import { EventDetailComponent } from './event-detail/event-detail.component';
 
 export const firebaseConfig = {
-  apiKey: masterFirebaseConfig.apiKey,
-  authDomain: masterFirebaseConfig.authDomain,
-  databaseURL: masterFirebaseConfig.storageBucket
+apiKey: masterFirebaseConfig.apiKey,
+authDomain: masterFirebaseConfig.authDomain,
+databaseURL: masterFirebaseConfig.databaseURL,
+storageBucket: masterFirebaseConfig.storageBucket
 };
 
 @NgModule({

@@ -1,11 +1,16 @@
 import { Injectable } from '@angular/core';
 import { Event } from './event.model';
 import { EVENTS } from './mock-events';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
 export class EventService {
 
-  constructor() { }
+  events: FirebaseListObservable<any[]>;
+
+  constructor(private database: AngularFireDatabase) {
+    this.events = database.list('events');
+  }
 
   getEventById(eventId: number){
     for(let i = 0; i<= EVENTS.length - 1; i++){
@@ -16,7 +21,7 @@ export class EventService {
   }
 
   getEvents(){
-    return EVENTS;
+    return this.events;
   }
 
 }

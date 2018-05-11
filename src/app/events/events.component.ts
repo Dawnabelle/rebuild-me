@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 import { Event } from '../event.model';
 import { EventService } from '../event.service';
@@ -13,7 +14,7 @@ import { EventService } from '../event.service';
 
 export class EventsComponent implements OnInit {
 
-  events: Event[];
+  events: FirebaseListObservable<any[]>;
 
   constructor(
     private router: Router,
