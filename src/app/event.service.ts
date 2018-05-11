@@ -25,6 +25,14 @@ export class EventService {
       location: localUpdatedEvent.location,
       venue: localUpdatedEvent.venue,
       tickets: localUpdatedEvent.tickets
-    })
+    });
+  }
+
+  addEvent(newEvent: Event) {
+    this.events.push(newEvent);
+  }
+
+  getEvents() {
+    return this.events;
   }
 }

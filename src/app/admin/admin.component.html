@@ -19,14 +19,15 @@
   </div>
 
   <div>
-    <label>Tickets:</label>
+    <label>Tickets Sold Out:</label>
     <br>
     <input #newTickets>
   </div>
 
   <button (click)="submitForm(newDate.value, newLocation.value, newVenue.value, newTickets.value); newDate.value=''; newLocation.value=''; newVenue.value=''; newTickets.value=''">Add</button>
-  
+
   <div>
     <app-events></app-events>
   </div>
+
 </div>

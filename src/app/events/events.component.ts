@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FirebaseListObservable } from 'angularfire2/database';
 
-import { Event } from '../event.model';
 import { EventService } from '../event.service';
 
 @Component({
@@ -22,8 +21,8 @@ export class EventsComponent implements OnInit {
     private eventService: EventService
   ) { }
 
-  gotToDetailPage(clickedEvent: Event){
-    // this.router.navigate(['events', clickedEvent.id]);
+  gotToDetailPage(clickedEvent){
+    this.router.navigate(['events', clickedEvent.$key]);
   }
 
   ngOnInit(){

@@ -19,6 +19,6 @@ export class AdminComponent implements OnInit {
     let newEvent: Event = new Event(date, location, venue, tickets);
     this.eventService.addEvent(newEvent);
   }
-  
+
 
 }

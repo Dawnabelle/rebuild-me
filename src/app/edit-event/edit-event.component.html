@@ -11,4 +11,7 @@
 <label>New Event Venue:</label>
 <input [(ngModel)]="selectedEvent.venue">
 
-<button (click)="beginUpdatingEvent(selectEvent)">Update</button>
+<label>New Ticket Status:</label>
+<input [(ngModel)]="selectedEvent.tickets">
+
+<button (click)="beginUpdatingEvent(selectedEvent)">Update</button>

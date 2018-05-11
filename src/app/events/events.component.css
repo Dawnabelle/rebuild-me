@@ -50,3 +50,9 @@ border: 1px solid black;
 .event-listing + .event-listing {
 margin-top: 5px;
 }
+
+.event-listing .event-edit {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
