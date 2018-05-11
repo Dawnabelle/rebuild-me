@@ -15,7 +15,7 @@ export class EventService {
   }
 
   getEventById(eventId: string){
-    return this.database.object('events/' + eventId);
+    return this.database.object('/events/' + eventId);
   }
 
   updateEvent(localUpdatedEvent) {

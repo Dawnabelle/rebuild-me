@@ -31,15 +31,15 @@
   <div class="event-listing-container">
     <div *ngFor="let event of events | async" class="event-listing">
       <div>
-        <a (click)="goToDetailPage(event)" class="event-edit">View Detail</a> {{event.date}} | {{event.location}} | {{event.$key}}
+        <a (click)="goToDetailPage(event)" class="event-edit">View Detail</a> {{event.date}} | {{event.location}} | {{event.venue}} | {{event.$key}}
+      </div>
+      <div *ngIf="currentRoute === '/admin'">
+        <div>
+          <app-edit-event [selectedEvent]="event"></app-edit-event>
+        </div>
       </div>
     </div>
 
-    <div *ngIf="currentRoute === '/admin'">
-      <div>
-        <app-edit-event [selectedEvent]="event"></app-edit-event>
-      </div>
-    </div>
 
   </div>
 </div>

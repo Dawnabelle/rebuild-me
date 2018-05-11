@@ -8,6 +8,7 @@ import { Event } from '../event.model';
   styleUrls: ['./admin.component.css'],
   providers: [EventService]
 })
+
 export class AdminComponent implements OnInit {
 
   constructor(private eventService: EventService) { }
@@ -15,7 +16,7 @@ export class AdminComponent implements OnInit {
   ngOnInit() {
   }
 
-  submitForm(date:string, location: string, venue: string, tickets: string){
+  submitForm( date:string, location: string, venue: string, tickets: string){
     let newEvent: Event = new Event(date, location, venue, tickets);
     this.eventService.addEvent(newEvent);
   }
