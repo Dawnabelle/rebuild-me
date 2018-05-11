@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { BeyImagesComponent } from './bey-images/bey-images.component';
 import { EventsComponent } from './events/events.component';
 import { EventDetailComponent } from './event-detail/event-detail.component';
+import { AdminComponent } from './admin/admin.component';
 
 const appRoutes: Routes = [
   {
@@ -17,6 +18,10 @@ const appRoutes: Routes = [
   {
     path: 'events/:id',
     component: EventDetailComponent
+  },
+  {
+    path: 'admin',
+    component: AdminComponent
   }
 ];
 

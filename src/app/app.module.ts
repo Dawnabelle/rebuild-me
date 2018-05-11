@@ -12,6 +12,7 @@ import { BeyImagesComponent } from './bey-images/bey-images.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { EventsComponent } from './events/events.component';
 import { EventDetailComponent } from './event-detail/event-detail.component';
+import { AdminComponent } from './admin/admin.component';
 
 export const firebaseConfig = {
 apiKey: masterFirebaseConfig.apiKey,
@@ -27,7 +28,8 @@ storageBucket: masterFirebaseConfig.storageBucket
     BeyImagesComponent,
     NavMenuComponent,
     EventsComponent,
-    EventDetailComponent
+    EventDetailComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

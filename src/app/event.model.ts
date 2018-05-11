@@ -3,7 +3,6 @@ export class Event {
     public date: string,
     public location: string,
     public venue: string,
-    public tickets: boolean,
-    public id: number
+    public tickets: string
   ) { }
 }

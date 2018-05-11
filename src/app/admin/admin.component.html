@@ -1,0 +1,28 @@
+<h3>Add New Event to Inventory</h3>
+<div>
+  <div>
+    <label>Event Date:</label>
+    <br>
+    <input #newDate>
+  </div>
+
+  <div>
+    <label>Event Location:</label>
+    <br>
+    <input #newLocation>
+  </div>
+
+  <div>
+    <label>Event Venue:</label>
+    <br>
+    <input #newVenue>
+  </div>
+
+  <div>
+    <label>Tickets:</label>
+    <br>
+    <input #newTickets>
+  </div>
+
+  <button (click)="submitForm(newDate.value, newLocation.value, newVenue.value, newTickets.value); newDate.value=''; newLocation.value=''; newVenue.value=''; newTickets.value=''">Add</button>
+</div>

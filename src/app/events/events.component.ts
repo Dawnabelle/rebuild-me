@@ -22,7 +22,7 @@ export class EventsComponent implements OnInit {
   ) { }
 
   gotToDetailPage(clickedEvent: Event){
-    this.router.navigate(['events', clickedEvent.id]);
+    // this.router.navigate(['events', clickedEvent.id]);
   }
 
   ngOnInit(){
