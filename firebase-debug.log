@@ -1,0 +1,43 @@
+[debug] [2018-05-12T01:15:55.882Z] ----------------------------------------------------------------------
+[debug] [2018-05-12T01:15:55.884Z] Command:       /Users/owner/.nvm/versions/node/v8.11.1/bin/node /Users/owner/.nvm/versions/node/v8.11.1/bin/firebase init
+[debug] [2018-05-12T01:15:55.884Z] CLI Version:   3.18.4
+[debug] [2018-05-12T01:15:55.884Z] Platform:      darwin
+[debug] [2018-05-12T01:15:55.884Z] Node Version:  v8.11.1
+[debug] [2018-05-12T01:15:55.885Z] Time:          Fri May 11 2018 18:15:55 GMT-0700 (PDT)
+[debug] [2018-05-12T01:15:55.885Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-12T01:15:55.897Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-05-12T01:15:55.897Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/owner/Desktop/git/rebuild-me
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-05-12T01:15:59.904Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Fri May 11 2018 18:15:59 GMT-0700 (PDT)
+[debug] [2018-05-12T01:16:00.627Z] <<< HTTP RESPONSE 200
+[info] i  .firebaserc already has a default project, skipping
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
