@@ -67,3 +67,8 @@ margin-top: 5px;
   text-decoration: none !important;
   font-size: 1rem;
 }
+
+.event-listing-container p {
+  font-size: .75rem;
+  color: teal;
+}
