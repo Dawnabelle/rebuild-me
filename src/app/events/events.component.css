@@ -42,9 +42,13 @@
   width: 100%;
 }
 
-.event-listing {
-padding: 10px;
-border: 1px solid black;
+.event-listing .event-edit-button {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom: 1px dotted black;
+  font-size: .7rem;
+  line-height: 2.5rem;
 }
 
 .event-listing + .event-listing {
@@ -55,4 +59,11 @@ margin-top: 5px;
   cursor: pointer;
   color: blue;
   text-decoration: underline;
+}
+
+.event-edit-button button {
+  background-color: black;
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 1rem;
 }

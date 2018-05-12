@@ -24,23 +24,22 @@
     <div class="tour-view">
       <img src="https://www.beyonce.com/uploads/2018/03/cache/jbKJKZTc1vBb_1280x430_74tHK9Wi.jpg" alt="OTR II">
     </div>
-
   </div>
-
 
   <div class="event-listing-container">
     <div *ngFor="let event of events | async" class="event-listing">
-      <div>
-        <a (click)="goToDetailPage(event)" class="event-edit">View Detail</a>
-        {{event.date}} | {{event.location}} | {{event.venue}} | {{event.$key}}
-      </div>
-      <div *ngIf="currentRoute === '/admin'">
-        <div>
-          <app-edit-event [selectedEvent]="event"></app-edit-event>
-        </div>
+      <div class="event-edit-button">
+        <div>{{event.date}}</div>
+        <div>{{event.location}}</div>
+        <div>{{event.venue}}</div>
+        <button class="button" (click)="goToDetailPage(event)" class="event-edit">TICKETS</button>
       </div>
     </div>
+  </div>
 
-
+  <div *ngIf="currentRoute === '/admin'">
+    <div>
+      <app-edit-event [selectedEvent]="event"></app-edit-event>
+    </div>
   </div>
 </div>
